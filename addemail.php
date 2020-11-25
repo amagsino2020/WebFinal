@@ -103,7 +103,7 @@ th {
 </style>
 
 <?php
-  $dbc = mysqli_connect('localhost', 'amagsino', 'Linda91715', 'amagsino')
+  $dbc = mysqli_connect('localhost', '', '', ')
     or die('Error connecting to MySQL server.');
 
   $first_name = $_POST['firstname'];
